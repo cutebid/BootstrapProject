@@ -1,0 +1,42 @@
+
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.icon {margin-left: 35px;}
+.flex-column a { color: white;
+                 font-weight: bold;}
+
+
+.flex-fill {  color: black;
+            border-bottom: 2px solid green;
+                    }
+.flex-fill:hover  {  background-color: green;
+                    color: white;
+                  }
+.img-container img {
+                     position: relative;
+                     animation-name: example;
+                     animation-duration: 3s;
+                     animation-timing-function: ease;
+                     animation-iteration-count: infinite;
+                     animation-direction: alternate;
+                     padding-left: 80px; 
+}
+@keyframes example {
+                     
+                     to  {right: 0px;  top: 0px;}
+                    from {right: 0px; top: 100px;}
+}
+
+@media screen and (max-width:480px) {
+                 .img-container { display: none;}
+                 
+}
+
+
+
+
+               
+                
